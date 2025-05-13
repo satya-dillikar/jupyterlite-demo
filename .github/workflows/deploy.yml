@@ -1,6 +1,7 @@
 name: Build and Deploy
 
 on:
+  workflow_dispatch:  # This enables manual triggering from GitHub UI
   push:
     branches:
       - main
